@@ -1,0 +1,39 @@
+.contact {
+    background-color: #FAE6B1;
+}
+.contactGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 3% 20% 3% 20%;
+}
+.contactGridTile {
+    padding: 0 5% 0 5%;
+}
+#informationTile {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+}
+#leftForms {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+}
+#rightForms {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.leftInput {
+    padding: 2% 0 2% 0;
+}
+.rightInput {
+    width: 100%;
+    padding: 2% 0 2% 0;
+    height: 84%;
+
+}
+#leftMiddle {
+    margin: 3% 0 3% 0;
+}

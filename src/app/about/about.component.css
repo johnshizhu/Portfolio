@@ -1,0 +1,61 @@
+.about {
+    text-align: left;
+    padding: 0% 10% 0% 10%;
+    background-color: #B3DEE5;
+}
+.aboutContainer {
+    padding: 20% 10% 20% 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.aboutContainer p {
+    font-size: 20px;
+    /* border-style: solid; */
+}
+.about h1 {
+    font-size: 100px;
+    padding: 4% 0% 7% 20%;
+    color: #FFA101;
+
+}
+.about h3 {
+    font-size: 25px;
+    margin: 0 0 5% 20%;
+    text-align: left;
+}
+.about p {
+    line-height: 130%;
+    /* border-style:dotted; */
+    margin: 0 0 0 20%;
+    text-align: left;
+}
+#profileImage {
+    float: left;
+    max-height: 500px;
+    /* border-style: solid; */
+}
+.aboutImageContainer {
+    /* border-style: solid; */
+}
+.aboutTextContainer {
+    /* border-style: double; */
+    padding: 2% 2% 2% 2%;
+}
+.logoContainer {
+    /* display: flex; */
+    display: inline-flex;
+    width:100%;
+    /* border-style: dashed; */
+    /* color: blue; */
+    justify-content: center;
+    padding: 4% 0 4% 0;
+}
+.aboutLogo {
+    max-height: 40px;
+    /* border-style: solid;
+    color:red; */
+}
+.spacer {
+    width: 15%;
+}
