@@ -26,13 +26,22 @@
     grid-row: 2/3;
 }
 .leftInput {
-    padding: 2% 0 2% 0;
+    padding: 1em;
+    border: none;
+    border-radius: 10px;
+}
+.leftInput:focus {
+    outline: none;
 }
 .rightInput {
     width: 100%;
-    padding: 2% 0 2% 0;
+    padding: 1em;
     height: 84%;
-
+    border-radius: 10px;
+    border: none;
+}
+.rightInput:focus {
+    outline: none;
 }
 #leftMiddle {
     margin: 3% 0 3% 0;

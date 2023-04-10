@@ -9,12 +9,8 @@
     padding: 0 0 3% 0;
     
 }
-
 .skillsGrid {
     text-align: center;
-}
-.skillsTile {
-    /* border-style: solid; */
 }
 .skillsFlex {
     display: flex;
@@ -24,9 +20,6 @@
     width: 80%;
     height: 90%;
 
-}
-.skillsImageContainer {
-    /* background-color: blue; */
 }
 .skillsImage {
     max-width: 350px;
@@ -40,9 +33,14 @@
     padding: 5% 0 0 0;
     font-size:x-large;
 }
-.skillsCont {
-    /* background-color: purple; */
-    /* border-style:dotted; */
+#skills-link {
+    text-decoration: none;
+    color: #FFA101;
+    transition-duration: .3s;
+}
+#skills-link:hover{
+    font-size: 1.1em;
+    transition-duration: 0.3s;
 }
 
 

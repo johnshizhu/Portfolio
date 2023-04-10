@@ -1,5 +1,5 @@
 .projects {
-    background-color: white;
+    background-color: whitesmoke;
     padding: 0 0 3% 0;
     transition-duration: 0.2s;
 }
@@ -14,17 +14,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.tabContent h1 {
-    font-size: 55px;
-    padding: 2% 0 2% 0;
+.tab-title {
+    font-size: 4em;
+    padding: 2% 2% 4% 0%;
 }
-.tabContent h2 {
+#calcimage {
+    max-height: 400px;
 }
 .tabText {
     padding: 0 4% 0 0;
-}
-.tabText p {
-    font-size: 20px;
 }
 #fridgeImage {
     max-width: 100%;

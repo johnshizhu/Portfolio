@@ -21,6 +21,11 @@
 }
 #homePicture {
     max-height: 300px;
+    transition-duration: .5s;
+}
+#homePicture:hover {
+    max-height: 350px;
+    transition-duration: .5s;
 }
 .homeBody h3 {
     font-size: 35px;

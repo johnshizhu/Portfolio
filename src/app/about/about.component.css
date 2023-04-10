@@ -4,20 +4,15 @@
     background-color: #B3DEE5;
 }
 .aboutContainer {
-    padding: 20% 10% 20% 10%;
+    padding: 10% 10% 10% 10%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
 }
-.aboutContainer p {
-    font-size: 20px;
-    /* border-style: solid; */
-}
-.about h1 {
-    font-size: 100px;
-    padding: 4% 0% 7% 20%;
+.about-title {
+    font-size: 8em;
     color: #FFA101;
-
+    margin-bottom: 2em;
 }
 .about h3 {
     font-size: 25px;
@@ -33,14 +28,18 @@
 #profileImage {
     float: left;
     max-height: 500px;
-    /* border-style: solid; */
+    transition-duration: 0.5s;
 }
-.aboutImageContainer {
-    /* border-style: solid; */
+#profileImage:hover {
+    max-height: 520px;
+    transition-duration: 0.5s;
 }
 .aboutTextContainer {
     /* border-style: double; */
     padding: 2% 2% 2% 2%;
+}
+.about-text-paragraph {
+    font-size: 1.5em;
 }
 .logoContainer {
     /* display: flex; */

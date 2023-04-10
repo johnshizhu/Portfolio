@@ -13,13 +13,13 @@ a {
     z-index: 100;
 }
 #titleName a {
-    color: dodgerblue;
+    color: #1560bd;
     font-weight: bold;
     font-size: larger;
 }
 #titleName:visited {
     text-decoration: none;
-    color: dodgerblue;
+    color: #1560bd;
 }
 .navigation {
     top: 0;
@@ -30,17 +30,14 @@ a {
 /* Navigation Bar Options */
 
 .navItem {
-    transition-duration: 0.2s;
+    transition-duration: 0.1s;
     text-decoration: none;
     color: black;;
 }
 .navItem:hover {
-    transition-duration: 0.2s;
+    transition-duration: 0.1s;
     color: #FFA101;
     font-size: 110%;
     text-decoration: none;
 }
-.navItem:visited {
-    transition-duration: 0.2s;
-    text-decoration: none;
-}
+
