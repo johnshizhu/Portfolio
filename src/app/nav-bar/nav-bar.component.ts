@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ScrollService } from '../scroll.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent {
-
+  constructor(
+    private scrollService: ScrollService
+  ) {
+    scrollService.currentSection.subscribe(
+      (res) => {
+      }
+    )
+  }
 }

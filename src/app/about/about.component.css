@@ -4,20 +4,15 @@
     background-color: #B3DEE5;
 }
 .aboutContainer {
-    padding: 10% 10% 10% 10%;
+    padding: 5% 10% 5% 10%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
 }
 .about-title {
-    font-size: 8em;
+    font-size: 6em;
     color: #FFA101;
     margin-bottom: 2em;
-}
-.about h3 {
-    font-size: 25px;
-    margin: 0 0 5% 20%;
-    text-align: left;
 }
 .about p {
     line-height: 130%;
@@ -30,16 +25,12 @@
     max-height: 500px;
     transition-duration: 0.5s;
 }
-#profileImage:hover {
-    max-height: 520px;
-    transition-duration: 0.5s;
-}
 .aboutTextContainer {
     /* border-style: double; */
     padding: 2% 2% 2% 2%;
 }
 .about-text-paragraph {
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 .logoContainer {
     /* display: flex; */
