@@ -14,14 +14,10 @@
 .skillsFlex {
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: center;
     align-items: center;
     text-align: justify;
-    /* border-style: dashed; */
-    width: 80%;
     height: 90%;
-    margin: 0;
-
 }
 .skillsImage {
     max-width: 350px;
@@ -45,11 +41,13 @@
     font-size: 1.1em;
     transition-duration: 0.3s;
 }
-
-
 .skills-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    column-gap: 6em;
 
+}
+.skills-content {
+    font-size: 1.2em;
 }

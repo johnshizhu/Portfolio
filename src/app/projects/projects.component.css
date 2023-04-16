@@ -52,24 +52,68 @@
     align-items: center;
     transition-duration: 0.3s;
 }
+.projects-tile:hover {
+    cursor: pointer;
+}
 .projects-tile-title {
     color: #B3DEE5;
     font-size: 2.5em;
     font-weight: bold;
+    transition-duration: 0.3s;
 }
 .projects-tile-description {
     font-size: 1.3em;
     font-weight: bold;
     color: white;
+    transition-duration: 0.3s;
 }
 #ml-tile {
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../../assets/images/ML-background.png");
     background-size: cover;
 }
-
+body:has(#ml-tile:hover) #projects-ml-title {
+    font-size: 2.7em;
+    transition-duration: 0.3s;
+}
+body:has(#ml-tile:hover) #projects-ml-description {
+    font-size: 1.5em;
+    transition-duration: 0.3s;
+}
 #fridge-tile {
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../../assets/images/Fridge_Dash_SC.png");
     background-size: cover;
+}
+body:has(#fridge-tile:hover) #projects-fridge-title {
+    font-size: 2.7em;
+    transition-duration: 0.3s;
+}
+body:has(#fridge-tile:hover) #projects-fridge-description {
+    font-size: 1.5em;
+    transition-duration: 0.3s;
+}
+#portfolio-tile {
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../../assets/images/portfolio-sc.png");
+    background-size: cover;
+}
+body:has(#portfolio-tile:hover) #projects-portfolio-title {
+    font-size: 2.7em;
+    transition-duration: 0.3s;
+}
+body:has(#portfolio-tile:hover) #projects-portfolio-description {
+    font-size: 1.5em;
+    transition-duration: 0.3s;
+}
+#bioalgorithms-tile {
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../../assets/images/HMM-graphic.png");
+    background-size: cover;
+}
+body:has(#bioalgorithms-tile:hover) #projects-bioalgorithms-title {
+    font-size: 2.7em;
+    transition-duration: 0.3s;
+}
+body:has(#bioalgorithms-tile:hover) #projects-bioalgorithms-description {
+    font-size: 1.5em;
+    transition-duration: 0.3s;
 }
 .projects-tile-content {
     display: flex;
@@ -85,3 +129,4 @@
     backdrop-filter: brightness(0.6);
     transition-duration: 0.3s;
 }
+
