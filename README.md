@@ -5,4 +5,5 @@
 <br><br>
 ### You can find this page hosted on AWS here: 
 http://johnszhu.com
-
+<br><br>
+This portfolio was developed using the Angular framework
