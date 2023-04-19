@@ -7,3 +7,5 @@
 http://johnszhu.com
 <br><br>
 This portfolio was developed using the Angular framework
+<br><br>
+This webpage is hosted on AWS using S3 static website hosting and the domain name routed using Route 53
