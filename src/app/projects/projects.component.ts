@@ -7,5 +7,16 @@ import { Component, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None
 })
 export class ProjectsComponent {
-
+  mlLink() {
+    window.open("https://github.com/johnshizhu/john-ML")
+  }
+  fridgeLink() {
+    window.open("https://github.com/johnshizhu/Fridge")
+  }
+  portfolioLink() {
+    window.open("https://github.com/johnshizhu/Portfolio")
+  }
+  bioalgorithmsLink() {
+    window.open("https://github.com/johnshizhu/jz-bioalgorithms")
+  }
 }

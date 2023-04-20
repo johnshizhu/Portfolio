@@ -5,8 +5,13 @@
 }
 #skillsTitle {
     text-align: center;
-    font-size: 50px;
-    padding: 0 0 3% 0;
+    font-size: 4em;
+    padding-bottom: 0.5em;
+}
+#skills-subtitle {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 0 0 2% 0;
 }
 .skillsGrid {
     text-align: center;
@@ -14,13 +19,10 @@
 .skillsFlex {
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: start;
     align-items: center;
     text-align: justify;
-    /* border-style: dashed; */
-    width: 80%;
     height: 90%;
-
 }
 .skillsImage {
     max-width: 350px;
@@ -41,14 +43,17 @@
     transition-duration: .3s;
 }
 #skills-link:hover{
-    font-size: 1.1em;
+    font-size: 1em;
+    filter: brightness(1.3);
     transition-duration: 0.3s;
 }
-
-
 .skills-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    column-gap: 6em;
 
+}
+.skills-content {
+    font-size: 1.2em;
 }

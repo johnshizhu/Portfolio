@@ -37,7 +37,6 @@ a {
 .navItem:hover {
     transition-duration: 0.1s;
     color: #FFA101;
-    font-size: 110%;
     text-decoration: none;
 }
 
