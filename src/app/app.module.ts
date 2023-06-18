@@ -14,6 +14,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { SymbolBarComponent } from './symbol-bar/symbol-bar.component';
+import { TimelineComponent } from './timeline/timeline.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SymbolBarComponent } from './symbol-bar/symbol-bar.component';
     SkillsComponent,
     ProjectsComponent,
     ContactComponent,
-    SymbolBarComponent
+    SymbolBarComponent,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,
