@@ -24,10 +24,6 @@
     color: #343434;
     padding-top: 15px;
 }
-
-
-  /* The actual timeline (the vertical ruler) */
-
   /* The actual timeline (the vertical ruler) */
   .timeline::after {
     content: '';
