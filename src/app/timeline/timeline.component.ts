@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { TimelineModule } from 'primeng/timeline';
+
 
 @Component({
   selector: 'app-timeline',
