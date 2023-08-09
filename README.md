@@ -8,7 +8,7 @@
 ### You can find this page hosted on AWS here: 
 http://johnszhu.com
 <br><br>
-This portfolio was developed using the Angular framework
+This portfolio was developed using Angular
 <br><br>
 This webpage is hosted on AWS using S3 static website hosting and the domain name routed using Route 53
 <br><br>
