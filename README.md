@@ -13,7 +13,7 @@ This portfolio was developed using Angular
 This webpage is hosted on AWS using S3 static website hosting and the domain name routed using Route 53
 <br><br>
 Please feel free to reach out!
-### Run the website locally
+### Run the website locally on localhost:4200
 ```
 ng serve
 ```
