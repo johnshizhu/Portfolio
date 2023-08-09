@@ -446,3 +446,9 @@ body {
 #timeline .demo-card--step5 .head::after {
   border-color: #005035;
 }
+
+
+.timeline-image {
+  max-height: 200px;
+  object-fit: contain;
+}
