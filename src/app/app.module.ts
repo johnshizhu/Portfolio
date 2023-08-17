@@ -5,6 +5,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatTabsModule} from '@angular/material/tabs';
 import {ScrollingModule} from '@angular/cdk/scrolling';
 import { TimelineModule } from 'primeng/timeline';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
@@ -27,7 +29,7 @@ import { TimelineComponent } from './timeline/timeline.component';
     ProjectsComponent,
     ContactComponent,
     SymbolBarComponent,
-    TimelineComponent
+    TimelineComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,9 @@ import { TimelineComponent } from './timeline/timeline.component';
     BrowserAnimationsModule,
     MatGridListModule,
     MatTabsModule,
-    ScrollingModule
+    ScrollingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
