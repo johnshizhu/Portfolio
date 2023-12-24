@@ -19,4 +19,7 @@ export class ProjectsComponent {
   bioalgorithmsLink() {
     window.open("https://github.com/johnshizhu/jz-bioalgorithms")
   }
+  hgtLink() {
+    window.open("https://github.com/johnshizhu/HGT_Project")
+  }
 }

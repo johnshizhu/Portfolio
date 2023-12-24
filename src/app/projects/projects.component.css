@@ -67,6 +67,19 @@
     color: white;
     transition-duration: 0.3s;
 }
+#hgt-tile {
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../../assets/images/hgt-image.png");
+    background-size: cover;
+    line-height: 3em;
+}
+body:has(#hgt-tile:hover) #projects-hgt-title {
+    font-size: 2.7em;
+    transition-duration: 0.3s;
+}
+body:has(#hgt-tile:hover) #projects-hgt-description {
+    font-size: 1.5em;
+    transition-duration: 0.3s;
+}
 #ml-tile {
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../../assets/images/ML-background.png");
     background-size: cover;
