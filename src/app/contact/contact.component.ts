@@ -42,6 +42,7 @@ export class ContactComponent {
     this.httpClient.post<any>(url, data, httpOptions).subscribe({
         next: data => {
             console.log("email sent" + JSON.stringify(data));
+            alert('Message Sent')
         },
         error: error => {
             errorMessage = error.message;
