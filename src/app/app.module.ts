@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatGridListModule} from '@angular/material/grid-list';
-import {MatTabsModule} from '@angular/material/tabs';
-import {ScrollingModule} from '@angular/cdk/scrolling';
+import { MatToolbarModule} from '@angular/material/toolbar';
+import { MatGridListModule} from '@angular/material/grid-list';
+import { MatTabsModule} from '@angular/material/tabs';
+import { ScrollingModule} from '@angular/cdk/scrolling';
 import { TimelineModule } from 'primeng/timeline';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http'
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
@@ -39,7 +40,8 @@ import { TimelineComponent } from './timeline/timeline.component';
     MatTabsModule,
     ScrollingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,9 +1,26 @@
 <div class="contact" id="nav_contact">
-    <div class="contactGrid">
-        <div class="contactGridTile" id="informationTile">
-            <h1>Contact</h1>
-            <h3>Email: johnshizhu@gmail.com</h3>
-            <h3>Phone: (919)454-4697</h3>
+    <div class="contact-upper">
+        <div class="contact-title">
+            Contact
         </div>
+        <div class="contact-subtitle">
+            <span style="color: #FFA101;">Email:</span> johnshizhu@gmail.com <br>
+            <span style="color: #FFA101;">LinkedIn:</span> https://www.linkedin.com/in/johnshizhu/ <br>
+            <span style="color: #FFA101;">Github:</span> https://github.com/johnshizhu
+        </div>
+    </div>
+    <div class="contact-content">
+        <form class="email-form" [formGroup]="emailForm">
+            <label class="contact-form-label">Name</label>
+            <input class="contact-form-single-box" type="text" #name>
+
+            <label class="contact-form-label">Email</label>
+            <input class="contact-form-single-box" type="email" #email>
+          
+            <label class="contact-form-label">Message</label>
+            <textarea class="contact-form-message" type="text" #message rows="5"></textarea>
+          
+            <button class="contact-submit-button" type="button" (click)="sendEmail(name.value, email.value, message.value)">Send</button>
+          </form>
     </div>
 </div>
