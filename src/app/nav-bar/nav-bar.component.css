@@ -4,6 +4,12 @@ html {
 a {
     text-decoration: none;
 }
+.navigation {
+    top: 0;
+    bottom: 99999999999999999999999;
+    z-index: 100;
+}
+
 /* Navigation Bar */
 #nav {
     display: flex;
@@ -11,28 +17,34 @@ a {
     justify-content: space-evenly;
     position: fixed;
     z-index: 100;
+    transition-duration: 0.3s;
+    height: 5em;
+    background-color: transparent;
 }
+#nav.scrolled {
+    background-color: transparent;
+    transition-duration: 0.3s;
+    height: 3em;
+    background-color: #212529;
+}
+
 #titleName a {
-    color: #1560bd;
+    color: #FFA101;
     font-weight: bold;
     font-size: larger;
 }
 #titleName:visited {
     text-decoration: none;
-    color: #1560bd;
+    color: #FFA101;
 }
-.navigation {
-    top: 0;
-    bottom: 99999999999999999999999;
-    z-index: 100;
-}
+
 
 /* Navigation Bar Options */
 
 .navItem {
     transition-duration: 0.1s;
     text-decoration: none;
-    color: black;;
+    color: white;
 }
 .navItem:hover {
     transition-duration: 0.1s;

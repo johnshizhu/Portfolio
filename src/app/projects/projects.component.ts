@@ -22,4 +22,7 @@ export class ProjectsComponent {
   hgtLink() {
     window.open("https://github.com/johnshizhu/HGT_Project")
   }
+  quantumLink() {
+    window.open("https://github.com/johnshizhu/591_Quantum_Project")
+  }
 }

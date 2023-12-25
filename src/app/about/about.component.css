@@ -1,28 +1,55 @@
 .about {
     text-align: left;
     padding: 0% 10% 0% 10%;
-    background-color: #B3DEE5;
+    background-color: #edeeef;
 }
-.aboutContainer {
-    padding: 5% 10% 5% 10%;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+@media (max-width: 2000px) {
+    .aboutContainer {
+        padding: 5% 10% 5% 10%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
 }
+@media (min-width: 2000px) {
+    .aboutContainer {
+        padding: 5% 20% 5% 20%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+}
+@media (min-width: 2400px) {
+    .aboutContainer {
+        padding: 5% 25% 5% 25%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+}
+
 .about-title {
-    font-size: 6em;
-    color: #FFA101;
-    margin-bottom: 2em;
+    font-size: 3em;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 0.5em;
+}
+.about-subtitle {
+    text-align: left;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 1em 10%;
 }
 .about p {
     line-height: 130%;
-    /* border-style:dotted; */
-    margin: 0 0 0 20%;
+    margin: 0 0 0 10%;
     text-align: left;
 }
 #profileImage {
     float: left;
-    max-height: 500px;
+    max-height: 400px;
     transition-duration: 0.5s;
 }
 .aboutTextContainer {
