@@ -9,6 +9,9 @@
     font-size: 60px;
     font-weight: bold;
 }
+@media (max-width: 1000px) {
+
+}
 #projects-subtitle {
     font-size: 2em;
     color: #FFA101;
@@ -156,3 +159,19 @@ body:has(#bioalgorithms-tile:hover) #projects-bioalgorithms-description {
     transition-duration: 0.3s;
 }
 
+@media (max-width: 1000px) {
+    #projectsTitle {
+        line-height: 1em;
+    }
+    .projects-grid {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .projects-tile {
+        width: 100%;
+    }
+
+}
